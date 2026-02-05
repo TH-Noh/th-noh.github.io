@@ -3,7 +3,6 @@ layout: page
 title: Data Analytics Competition
 description: 2025 KPMG + Layton Construction Data Analytics Challenge
 img: assets/img/kpmg_thumbnail.png
-redirect: https://unsplash.com
 importance: 1
 category: competition
 ---
