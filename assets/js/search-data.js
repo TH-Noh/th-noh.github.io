@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum vitae and resume.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -419,11 +419,11 @@ ninja.data = [{
           description: "Predicting Supply-Chain Relationships with Multi-Feature Graph Attention Networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-data-analytics-competition",
-          title: 'Data Analytics Competition',
+            },},{id: "projects-kpmg-data-analytics-competition",
+          title: 'KPMG Data Analytics Competition',
           description: "2025 KPMG + Layton Construction Data Analytics Challenge",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/kpmg-data-analytics-competition/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
