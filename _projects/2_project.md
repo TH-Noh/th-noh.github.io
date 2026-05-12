@@ -69,7 +69,7 @@ Since real-world supply chain data contains only observed (positive) relationshi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Model_Performances.jpg" title="performances" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Model_performances.jpg" title="performances" class="img-fluid rounded z-depth-1" %}
         <div class="caption">Ablation Study Results</div>
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
