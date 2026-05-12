@@ -2,96 +2,119 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Taehyun Noh
+    - name: Location
+      value: Salt Lake City, UT
+    - name: Email
+      value: taehyun.noh@utah.edu
+    - name: Phone
+      value: (385) 370-3309
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/taehyun-noh">www.linkedin.com/in/taehyun-noh</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: Masters of Science in Information Systems
-      institution: University of Utah, Salt Lake City, Utah, US
-      year: 2026
+    - title: Master of Science in Information Systems
+      institution: University of Utah, Salt Lake City, UT
+      year: Aug 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 4.0"
+    - title: Bachelor of Engineering in Industrial & Management Engineering
+      institution: Incheon National University, Incheon, South Korea
+      year: Mar 2019 - Aug 2025
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 4.1 / 4.5"
+    - title: Bachelor of Science in Management Information Systems
+      institution: Weber State University, Ogden, UT
+      year: Jan 2024 - Apr 2025
+      description:
+        - "GPA: 3.87"
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python
+        - Java
+    - title: Databases
+      items:
+        - PostgreSQL
+        - MySQL
+    - title: Data Analytics
+      items:
+        - R
+        - Tableau
+        - KNIME
+    - title: Data Visualization
+      items:
+        - Power BI
+    - title: Web Development
+      items:
+        - HTML
+        - CSS
+        - JavaScript
+    - title: Project Management
+      items:
+        - Microsoft Project
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant, Introduction to Data Analytics
+      institution: University of Utah, Salt Lake City, UT
+      year: Jan 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Guided students in data cleaning, visualization, predictive modeling, and interpretation of analytical results using Python-based analytics tools.
+        - Supported students in translating model outputs into clear business insights through reports, presentations, and applied analytics projects.
+        - Reviewed analytics projects for methodological soundness, data interpretation, model evaluation, and business relevance.
+    - title: Research Assistant
+      institution: Industrial Intelligence Laboratory, Incheon National University, Incheon, South Korea
+      year: Nov 2022 - Jan 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Built an optimization-based decision support tool to simulate electroplating schedules, evaluate resource requirements, and visualize operational performance.
+        - Reduced required hoists by 25% and decreased per-product plating time by 1.5% through improved scheduling logic.
+        - Co-invented and filed Korean Patent No. 10-2024-0007227 and published related research in the International Journal of Precision Engineering and Manufacturing.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Competitions
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "Gen AI Hackathon: AI-Powered Community Health Ordering & Fulfillment System"
+      institution: University of Utah
+      year: Mar 2026
+      description:
+        - Developed an LLM-powered web application to modernize community health request intake, fulfillment routing, and administrative review workflows.
+        - Automated urgency assessment and request summarization to highlight event details, key considerations, incomplete information, and required follow-up actions.
+        - Built an administrator-facing dashboard to track request status, fulfillment type, event details, and workflow progress.
+    - title: "1st Place, 2025 KPMG Layton Data Analytics Challenge"
+      institution: University of Utah
+      year: Nov 2025
+      description:
+        - Built an employee turnover prediction model using Explainable Boosting Machine to identify key drivers of attrition.
+        - Conducted demographic and workforce analysis to translate complex employee data into actionable business insights.
+        - Designed an interactive dashboard and stakeholder-facing presentation to communicate model findings, tradeoffs, and recommendations.
+    - title: "2nd Place, 2024 Game Day Analytics Challenge"
+      institution: University of Utah
+      year: Feb 2024
+      description:
+        - Analyzed Super Bowl advertising effectiveness using large-scale Twitter (X) social media data.
+        - Conducted time-series, sentiment, and cost-effectiveness analyses to evaluate brand impact.
+        - Applied the Analytic Hierarchy Process (AHP) to integrate multiple performance metrics into a unified ranking.
 
-- title: Honors and Awards
+- title: Research Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Graph Attention Network (GAT) based Supply Chain Relationship Prediction Model
+      year: Jan 2024 - Sep 2024
+      description:
+        - Proposed a GAT-based link prediction model integrating node and text embeddings to predict inter-company supply chain relationships.
+        - Demonstrated high performance with an average accuracy of 84% across five datasets.
+        - Published research in Expert Systems with Applications based on the proposed GAT model.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications and Patents
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Published research in Expert Systems with Applications based on a GAT-based supply chain relationship prediction model.
+    - Published related research in the International Journal of Precision Engineering and Manufacturing.
+    - Co-invented and filed Korean Patent No. 10-2024-0007227.
