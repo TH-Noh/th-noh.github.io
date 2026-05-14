@@ -17,7 +17,20 @@ Participated in a data analytics competition focused on transforming HR data int
 
 <b>Workforce & Demographics Analysis</b>
 
-Analyzed workforce demographics, tenure distribution, and hiring trends using SQL and BI tools.
+Analyzed workforce demographics, tenure distribution, and hiring trends using Power BI.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/KPMG_demographics.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/KPMG_diversity.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/KPMG_RoleJobs.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 Designed an interactive demographics dashboard to visualize:
 
@@ -63,6 +76,15 @@ Focused on interpretability to answer both:
 - Who is likely to leave?
 
 - Why are they likely to leave?
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/KPMG_Prediction1.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/KPMG_Prediction2.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Evaluated model performance and selected thresholds to balance precision and recall for practical HR use.
 
