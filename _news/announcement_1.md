@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Started TA position - IS 4487: Introduction to Data Analytics
-

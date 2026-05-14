@@ -24,11 +24,12 @@ In electroplating lines, delayed or inefficient hoist movement can cause parts t
 <div><h3><b>Problem</b></h3></div>
 
 Electroplating facilities require precise coordination between multiple tanks, stages, parts, and hoists. The main challenge is to determine:
- - The minimum or appropriate number of hoists required
- - Feasible hoist movement schedules
- - Handover stages between hoists
- - Schedules that satisfy soaking-time and cycle-time constraints
- - Operational configurations that reduce cost while maintaining production quality
+
+- The minimum or appropriate number of hoists required
+- Feasible hoist movement schedules
+- Handover stages between hoists
+- Schedules that satisfy soaking-time and cycle-time constraints
+- Operational configurations that reduce cost while maintaining production quality
 
 <hr style="border: 1px solid #ccc;">
 
@@ -39,12 +40,13 @@ I contributed to the development of `ElectroTwin`, a decision-support system tha
 The core component of the system is `C-Search`, a constraint-based search algorithm designed to identify the appropriate number of hoists and their feasible movements within a given cycle time. Instead of requiring operators to manually formulate a new optimization model for each facility configuration, ElectroTwin dynamically injects operational constraints and system states into the search process. This allows the framework to solve diverse electroplating scheduling problems without manual reformulation.
 
 Key features include:
- - Built a digital representation of real-world electroplating facilities
- - Developed a **constraint-based search approach** for hoist design and scheduling
- - Automated the process of **determining hoist count, handover stages, and movement schedules**
- - Integrated **visual analytics for schedule interpretation and decision support**
- - Supported **what-if analysis** for different tank and hoist configurations
- - Designed the framework to be usable by non-expert facility operators
+
+- Built a digital representation of real-world electroplating facilities
+- Developed a **constraint-based search approach** for hoist design and scheduling
+- Automated the process of **determining hoist count, handover stages, and movement schedules**
+- Integrated **visual analytics for schedule interpretation and decision support**
+- Supported **what-if analysis** for different tank and hoist configurations
+- Designed the framework to be usable by non-expert facility operators
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -62,18 +64,18 @@ Key features include:
 ElectroTwin was implemented as a graphical user interface application using `Python, Tkinter, and Matplotlib`. The system allows users to load electroplating facility data, input cycle-time constraints, run the C-Search algorithm, and visually analyze the resulting schedules.
 
 The application includes several user-facing functions:
- - `(a) Data Load Function:` Constructs the digital twin using facility information such as tank types, soaking times, number of tanks, and hoist specifications.
- - `(b) Cycle Time Input and Execution Function:` Runs C-Search to determine the appropriate number of hoists and feasible movements.
- - `(c) Output Function:` Displays the resulting hoist count, handover points, and tank utilization.
- - `(d) Operation Visualization Function:` Simulates part movement and hoist operation across the electroplating line.
- - `(e) Visual Analytics Function:` Provides Gantt chart analysis, bottleneck analysis, and cost-profit analysis.
+
+- `(a) Data Load Function:` Constructs the digital twin using facility information such as tank types, soaking times, number of tanks, and hoist specifications.
+- `(b) Cycle Time Input and Execution Function:` Runs C-Search to determine the appropriate number of hoists and feasible movements.
+- `(c) Output Function:` Displays the resulting hoist count, handover points, and tank utilization.
+- `(d) Operation Visualization Function:` Simulates part movement and hoist operation across the electroplating line.
+- `(e) Visual Analytics Function:` Provides Gantt chart analysis, bottleneck analysis, and cost-profit analysis.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/electrotwin_gui.png" title="Outline for Electrotwin" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 <hr style="border: 1px solid #ccc;">
 
@@ -107,9 +109,9 @@ The `cost-profit analysis` evaluates how changes in the number of tanks and hois
 
 Compared with the conventional outsourcing-based method, C-Search achieved significantly faster computation while reducing operational cost in larger cases:
 
- - **Case 1:** Same objective value as the conventional method, but reduced computation time from 24 hours to 48.51 seconds.
- - **Case 2:** Reduced required hoists from 6 to 5 and improved the objective value from 315,600 to 285,600.
- - **Case 3:** Reduced required hoists from 6 to 4 and improved the objective value from 306,600 to 246,600.
+- **Case 1:** Same objective value as the conventional method, but reduced computation time from 24 hours to 48.51 seconds.
+- **Case 2:** Reduced required hoists from 6 to 5 and improved the objective value from 315,600 to 285,600.
+- **Case 3:** Reduced required hoists from 6 to 4 and improved the objective value from 306,600 to 246,600.
 
 Across all cases, ElectroTwin generated solutions in `less than two minutes`, while the conventional method required approximately 24 hours.
 
@@ -131,12 +133,12 @@ From an operational perspective, ElectroTwin helps facility operators reduce dep
 
 <div><h3><b>Key Contributions</b></h3></div>
 
- - Developed a digital twin-driven decision-support framework for electroplating facility design and scheduling
- - Designed and implemented C-Search, a constraint-based search algorithm for determining hoist count and movement schedules
- - Built a GUI-based prototype using Python, Tkinter, and Matplotlib
- - Integrated Gantt chart, bottleneck, and cost-profit visual analytics
- - Validated the framework using three real-world industrial case studies
- - Demonstrated faster computation and lower operational costs compared with a conventional outsourcing-based approach
+- Developed a digital twin-driven decision-support framework for electroplating facility design and scheduling
+- Designed and implemented C-Search, a constraint-based search algorithm for determining hoist count and movement schedules
+- Built a GUI-based prototype using Python, Tkinter, and Matplotlib
+- Integrated Gantt chart, bottleneck, and cost-profit visual analytics
+- Validated the framework using three real-world industrial case studies
+- Demonstrated faster computation and lower operational costs compared with a conventional outsourcing-based approach
 
 <!-- {% raw %}
 

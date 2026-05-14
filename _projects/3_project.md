@@ -32,7 +32,6 @@ Analyzed workforce demographics, tenure distribution, and hiring trends using Po
     </div>
 </div>
 
-
 Designed an interactive demographics dashboard to visualize:
 
 - Headcount trends and workforce composition

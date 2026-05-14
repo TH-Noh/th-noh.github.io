@@ -59,7 +59,7 @@ To evaluate robustness across sectors, we analyzed model performance **by indust
 
 - This analysis highlights that, compared to baseline GCN models, the proposed model consistently achieves **higher performance across individual industry sectors**.
 
- It demonstrates **superior capability in capturing supply-chain relationships** within heterogeneous industrial ecosystems.
+It demonstrates **superior capability in capturing supply-chain relationships** within heterogeneous industrial ecosystems.
 
 <hr style="border: 1px solid #ccc;">
 
