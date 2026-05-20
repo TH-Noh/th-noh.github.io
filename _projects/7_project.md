@@ -3,7 +3,7 @@ layout: page
 title: Meeting Agent Ops
 description: AI-Powered Meeting Workflow Automation System
 img: assets/img/meetingops_main.png
-importance: 3
+importance: 1
 category: competition
 related_publications: true
 ---

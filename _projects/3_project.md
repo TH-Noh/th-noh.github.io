@@ -4,7 +4,7 @@ title: KPMG Data Analytics Competition
 description: 2025 KPMG + Layton Construction Data Analytics Challenge
 permalink: /projects/kpmg-data-analytics-competition/
 img: assets/img/kpmg_thumbnail.png
-importance: 1
+importance: 2
 category: competition
 ---
 

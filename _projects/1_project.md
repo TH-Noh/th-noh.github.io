@@ -3,7 +3,7 @@ layout: page
 title: Data Analytics Competition
 description: University of Utah - 2024 Gamday Analtycis Challenge
 img: assets/img/gameday.jpg
-importance: 2
+importance: 3
 category: competition
 related_publications: false
 ---
