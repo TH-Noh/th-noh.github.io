@@ -5,7 +5,7 @@ description: AI-Powered Meeting Workflow Automation System
 img: assets/img/meetingops_main.png
 importance: 1
 category: competition
-related_publications: true
+related_publications: False
 ---
 
 <div><h3><b>Overview</b></h3></div>
