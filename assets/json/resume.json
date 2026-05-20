@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Taehyun Noh",
+    "label": "Graduate Student in Information Systems",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "taehyun.noh@utah.edu",
+    "phone": "(385) 370-3309",
+    "url": "https://th-noh.github.io/",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "postalCode": "UT 84108",
+      "city": "Salt Lake City",
       "countryCode": "US",
-      "region": "California"
+      "region": "Utah"
     },
     "profiles": [
       {
