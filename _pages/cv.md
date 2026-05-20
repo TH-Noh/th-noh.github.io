@@ -4,8 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: Taehyun%20Noh_Resume.pdf # you can also use external links here
+cv_pdf: TaehyunNoh_CV.pdf # you can also use external links here
 description: Curriculum vitae and resume.
 toc:
   sidebar: left
+cv_format: rendercv
 ---
