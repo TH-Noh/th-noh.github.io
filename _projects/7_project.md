@@ -30,11 +30,11 @@ Teams often leave meetings with important decisions, follow-ups, and open questi
 
 The core problems addressed in this project include:
 
- - Meeting notes are taken inconsistently across team members.
- - Action items are not always clearly assigned or tracked.
- - Follow-up tasks such as sending emails or scheduling meetings require additional manual work.
- - Past meeting context is difficult to search and reuse.
- - Teams often struggle to convert meeting discussions into reliable execution.
+- Meeting notes are taken inconsistently across team members.
+- Action items are not always clearly assigned or tracked.
+- Follow-up tasks such as sending emails or scheduling meetings require additional manual work.
+- Past meeting context is difficult to search and reuse.
+- Teams often struggle to convert meeting discussions into reliable execution.
 
 <hr style="border: 1px solid #ccc;">
 
@@ -46,14 +46,14 @@ Before any external action is executed, the system keeps the user in control by 
 
 Key capabilities include:
 
- - **Automatically summarize meeting discussions** from audio, notes, or transcripts.
- - Extract structured **action items** from meeting content.
- - **Classify tasks** into email sending, calendar creation, or manual review.
- - **Generate reviewable task** lists before executing external actions.
- - Send emails or create Google Calendar events after user confirmation.
- - Store meetings under teams and projects for organized collaboration.
- - **Retrieve prior meeting** context using RAG.
- - Provide previous meeting summaries before a new meeting starts.
+- **Automatically summarize meeting discussions** from audio, notes, or transcripts.
+- Extract structured **action items** from meeting content.
+- **Classify tasks** into email sending, calendar creation, or manual review.
+- **Generate reviewable task** lists before executing external actions.
+- Send emails or create Google Calendar events after user confirmation.
+- Store meetings under teams and projects for organized collaboration.
+- **Retrieve prior meeting** context using RAG.
+- Provide previous meeting summaries before a new meeting starts.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -72,14 +72,14 @@ The system was designed as a multi-step AI workflow that supports the entire mee
 
 The workflow consists of the following stages:
 
- - `Meeting Capture:` The agent starts when the meeting begins and processes meeting audio or uploaded transcript files.
- - `Speech and Transcript Processing:` Audio is converted and prepared for downstream analysis, including speaker diarization and transcript generation.
- - `Meeting Summarization:` The system generates a concise summary of the meeting discussion.
- - `Task Extraction:` Key action items are extracted from the meeting summary, meeting notes, and transcript.
- - `Task Labeling:` Each task is classified into the appropriate next-step category, such as email, calendar, or manual review.
- - `Human Review:` Users review the suggested tasks and approve or reject each action.
- - `Automated Execution:` Approved email and calendar tasks are executed automatically.
- - `Project Memory Update:` Meeting content and vector chunks are stored for future retrieval.
+- `Meeting Capture:` The agent starts when the meeting begins and processes meeting audio or uploaded transcript files.
+- `Speech and Transcript Processing:` Audio is converted and prepared for downstream analysis, including speaker diarization and transcript generation.
+- `Meeting Summarization:` The system generates a concise summary of the meeting discussion.
+- `Task Extraction:` Key action items are extracted from the meeting summary, meeting notes, and transcript.
+- `Task Labeling:` Each task is classified into the appropriate next-step category, such as email, calendar, or manual review.
+- `Human Review:` Users review the suggested tasks and approve or reject each action.
+- `Automated Execution:` Approved email and calendar tasks are executed automatically.
+- `Project Memory Update:` Meeting content and vector chunks are stored for future retrieval.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -97,11 +97,11 @@ Before a new meeting starts, the system can **retrieve relevant summaries** from
 
 The RAG component supports:
 
- - Searching previous meetings within the same team or project.
- - Retrieving relevant prior discussions and decisions.
- - Providing previous meeting summaries at the start of a new meeting.
- - Maintaining a centralized memory of project progress.
- - Reducing context loss across recurring meetings.
+- Searching previous meetings within the same team or project.
+- Retrieving relevant prior discussions and decisions.
+- Providing previous meeting summaries at the start of a new meeting.
+- Maintaining a centralized memory of project progress.
+- Reducing context loss across recurring meetings.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -117,14 +117,14 @@ Meeting Agent Ops was implemented as an end-to-end web application with frontend
 
 The system includes:
 
- - `Frontend Interface:` Provides meeting creation, workspace navigation, review queues, and task confirmation UI.
- - `Backend Workflow:` Handles meeting processing, AI orchestration, task extraction, task labeling, and execution logic.
- - `Google Authentication:` Enables users to log in securely using Google sign-in.
- - `Database Layer:` Manages users, teams, projects, meetings, transcripts, summaries, vector chunks, and user credentials.
- - `RAG Pipeline:` Stores and retrieves meeting content by project/team context.
- - `Email Automation:` Generates and sends email follow-ups after user approval.
- - `Calendar Automation:` Creates calendar events based on approved meeting tasks.
- - `Review System:` Allows users to inspect, edit, approve, or reject suggested actions before execution.
+- `Frontend Interface:` Provides meeting creation, workspace navigation, review queues, and task confirmation UI.
+- `Backend Workflow:` Handles meeting processing, AI orchestration, task extraction, task labeling, and execution logic.
+- `Google Authentication:` Enables users to log in securely using Google sign-in.
+- `Database Layer:` Manages users, teams, projects, meetings, transcripts, summaries, vector chunks, and user credentials.
+- `RAG Pipeline:` Stores and retrieves meeting content by project/team context.
+- `Email Automation:` Generates and sends email follow-ups after user approval.
+- `Calendar Automation:` Creates calendar events based on approved meeting tasks.
+- `Review System:` Allows users to inspect, edit, approve, or reject suggested actions before execution.
 
 <hr style="border: 1px solid #ccc;">
 
@@ -145,19 +145,16 @@ This approach helps balance automation with user control by ensuring that extern
     </div>
 </div>
 
-
 <hr style="border: 1px solid #ccc;">
 
 <div><h3><b>Key Contributions</b></h3></div>
 
- - Developed an **AI-powered meeting workflow system** that converts meeting content into structured summaries, tasks, and follow-up actions.
- - Implemented meeting **audio processing** for speech recognition, speaker diarization, transcript preparation, and JSON output generation.
- - Built AI workflows for **summarization, action-item extraction, task classification, and retrieval support**.
- - Designed a ***human-in-the-loop*** review process before executing email or calendar actions.
- - Implemented **RAG-based meeting memory** for project- and team-level context retrieval.
- - Built Google login functionality for user **authentication**.
- - Implemented **database structures** for teams, projects, meetings, transcripts, summaries, vector chunks, user credentials, and task workflows.
- - Integrated Google Calendar and email automation for approved follow-up actions.
- - Developed a workspace interface for managing meeting history, reviewing tasks, and retrieving previous meeting context.
-
-
+- Developed an **AI-powered meeting workflow system** that converts meeting content into structured summaries, tasks, and follow-up actions.
+- Implemented meeting **audio processing** for speech recognition, speaker diarization, transcript preparation, and JSON output generation.
+- Built AI workflows for **summarization, action-item extraction, task classification, and retrieval support**.
+- Designed a **_human-in-the-loop_** review process before executing email or calendar actions.
+- Implemented **RAG-based meeting memory** for project- and team-level context retrieval.
+- Built Google login functionality for user **authentication**.
+- Implemented **database structures** for teams, projects, meetings, transcripts, summaries, vector chunks, user credentials, and task workflows.
+- Integrated Google Calendar and email automation for approved follow-up actions.
+- Developed a workspace interface for managing meeting history, reviewing tasks, and retrieving previous meeting context.
