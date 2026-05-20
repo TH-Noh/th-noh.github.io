@@ -26,7 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Taehyun Noh is a Master’s student in Information Systems at the David Eccles School of Business, University of Utah. He previously earned dual bachelor’s degrees in Management Information Systems from Weber State University, Utah, USA, and in Industrial and Management Engineering from Incheon National University, Korea.
+Taehyun Noh is a Master’s student in Information Systems at the David Eccles School of Business, University of Utah. He previously earned dual bachelor’s degrees in Management Information Systems from Weber State University, Utah, USA, and in Industrial and Management Engineering from Incheon National University, Korea. His academic and project experience spans artificial intelligence, machine learning, data analytics, optimization, and business intelligence, with a strong focus on applying technical solutions to real-world operational and managerial problems.
+
+His work centers on building AI- and data-driven systems that enhance business and operational performance, including solutions for manufacturing resource planning, predictive decision support, business process improvement, and workflow automation across communication, coordination, and scheduling activities.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
