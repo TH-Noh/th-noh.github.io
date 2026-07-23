@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>1885 E Sunnyside Ave</p>
-    <p>Salt Lake City, UT 84108</p>
+    <p>447 S Blair St</p>
+    <p>Salt Lake City, UT 84111</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
